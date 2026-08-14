@@ -60,10 +60,22 @@ The domain is split into zones to allow denser element clustering near the cylin
 
 ### 4.1 Van Leer scheme (2nd order)
 
-| | |
-|---|---|
-| ![Temperature](results/vanleer_temperature.png) | ![Density](results/vanleer_density.png) |
-| ![Pressure](results/vanleer_pressure.png) | ![Velocity magnitude, standoff region](results/vanleer_velocity_standoff_closeup.png) |
+<p align="center">
+<img src="results/vanleer_temperature.png" width="600"><br>
+<em>Temperature (K) — bow shock visible as the hot fan ahead of the cylinder</em>
+</p>
+<p align="center">
+<img src="results/vanleer_density.png" width="600"><br>
+<em>Density (kg/m³)</em>
+</p>
+<p align="center">
+<img src="results/vanleer_pressure.png" width="600"><br>
+<em>Pressure (Pa)</em>
+</p>
+<p align="center">
+<img src="results/vanleer_velocity_standoff_closeup.png" width="600"><br>
+<em>Velocity magnitude (m/s), close-up — shock standoff gap clearly visible ahead of the cylinder</em>
+</p>
 
 | Quantity | Theoretical (Billig) | Simulated | Relative error |
 |---|---|---|---|
@@ -71,10 +83,22 @@ The domain is split into zones to allow denser element clustering near the cylin
 
 ### 4.2 Upwind scheme (1st order)
 
-| | |
-|---|---|
-| ![Temperature](results/upwind_temperature.png) | ![Density](results/upwind_density.png) |
-| ![Pressure](results/upwind_pressure.png) | ![Velocity magnitude, standoff region](results/upwind_velocity_closeup.png) |
+<p align="center">
+<img src="results/upwind_temperature.png" width="600"><br>
+<em>Temperature (K)</em>
+</p>
+<p align="center">
+<img src="results/upwind_density.png" width="600"><br>
+<em>Density (kg/m³)</em>
+</p>
+<p align="center">
+<img src="results/upwind_pressure.png" width="600"><br>
+<em>Pressure (Pa)</em>
+</p>
+<p align="center">
+<img src="results/upwind_velocity_closeup.png" width="600"><br>
+<em>Velocity magnitude (m/s), close-up</em>
+</p>
 
 | Quantity | Theoretical (Billig) | Simulated | Relative error |
 |---|---|---|---|
