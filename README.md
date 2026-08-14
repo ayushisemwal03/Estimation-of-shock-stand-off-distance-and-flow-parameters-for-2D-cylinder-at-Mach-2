@@ -152,4 +152,4 @@ Rather than picking whichever number looks better, the honest read here is that 
 | OpenFOAM (`rhoCentralFoam`) | Compressible, density-based flow solver |
 | ParaView | Field visualization (temperature, density, pressure, velocity contours) |
 
-This repository documents the methodology and results of the study; OpenFOAM case files are not included."
+Note: This repository documents the methodology and results of the study; OpenFOAM case files are not included.
