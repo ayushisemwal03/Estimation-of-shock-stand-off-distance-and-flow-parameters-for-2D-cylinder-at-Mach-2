@@ -113,8 +113,6 @@ One result worth calling out honestly rather than glossing over: **the 1st-order
 - The mesh may not yet be fine enough in the standoff region to let the Van Leer scheme's theoretical accuracy advantage show through — a mesh refinement study (checking whether δ converges as resolution increases) would clarify this.
 - Billig's correlation itself is an empirical fit with its own scatter/uncertainty band, so a few percent difference between schemes may simply be within the correlation's own accuracy envelope.
 
-Rather than picking whichever number looks better, the honest read here is that **both schemes are in the right ballpark, the difference between them is small enough that it may not be statistically meaningful without a mesh-independence study**, and a next step worth doing (see Section 6) would be to refine the mesh and re-check whether the ordering between schemes flips — that would confirm or rule out the compensating-error explanation above.
-
 ---
 
 ## 5. Repository structure
