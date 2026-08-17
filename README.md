@@ -1,4 +1,4 @@
-# Supersonic Flow Over a 2D Cylinder — Shock Standoff Distance (OpenFOAM)
+# Estimation of shock-stand off distance and flow parameters for 2D cylinder at Mach 2
 
 Compressible CFD simulation of Mach 2 flow over a 2D cylindrical blunt body, validating the predicted bow shock standoff distance against Billig's empirical correlation.
 
