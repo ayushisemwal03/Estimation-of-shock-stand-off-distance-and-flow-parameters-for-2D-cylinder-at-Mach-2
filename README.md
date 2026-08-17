@@ -146,7 +146,7 @@ One result worth calling out honestly rather than glossing over: **the 1st-order
 
 | Tool | Purpose |
 |---|---|
-| ANSYS Fluent (Meshing) | Unstructured mesh generation (~96,000 elements) |
+| ANSYS Fluent (Meshing) | Structured mesh generation (~96,000 elements) |
 | OpenFOAM (`rhoCentralFoam`) | Compressible, density-based flow solver |
 | ParaView | Field visualization (temperature, density, pressure, velocity contours) |
 
